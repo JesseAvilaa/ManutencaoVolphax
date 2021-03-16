@@ -42,13 +42,22 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
           />
-
-          <link rel="icon" href="https://i.imgur.com/mh3sV3z.png" />
+          <link rel="icon" href="https://i.imgur.com/jNNqY4H.png" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="Volphax" />
+          <meta property="og:title" content="Volphax Group" />
+          <meta
+            property="og:description"
+            content="Empresa de desenvolvimentos web e mobile."
+          />
+          <meta property="og:image" content="https://i.imgur.com/jNNqY4H.png" />{' '}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@volphax" />
+          <meta name="twitter:creator" content="@volphax" />
         </Head>
         <body>
           <Main />
